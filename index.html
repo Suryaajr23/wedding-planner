@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Wedding Planner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <h1>Your Wedding Planner</h1>
+            <p>Where Dreams Come True</p>
+        </div>
+        <a href="#" class="login-btn">Login/Signup</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#reviews-section">Reviews</a></li>
+            <li><a href="#vendors-section">Vendors</a></li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="welcome-section" class="highlight">
+            <h2>Welcome to Your Wedding Planner</h2>
+            <img src="couple.jpg" alt="Happy Couple">
+        </section>
+
+        <section id="reviews-section" class="card">
+            <h2>Wedding Reviews</h2>
+            <p>This is a placeholder for wedding reviews.</p>
+        </section>
+
+        <section id="vendors-section" class="card">
+            <h2>Popular Vendors</h2>
+            <p>This is a placeholder for popular vendors.</p>
+        </section>
+
+        <section id="about-section" class="card">
+            <h2>About Us</h2>
+            <p>Your Wedding Planner is more than just a service; it's a commitment to turning your dream wedding into a reality. With a team of dedicated professionals, we take pride in creating moments that last a lifetime. Our passion for perfection ensures that every detail, from the venue to the flowers, reflects the uniqueness of your love story.</p>
+            <p>At Your Wedding Planner, we believe that every couple deserves a magical and stress-free wedding experience. Let us handle the details while you focus on creating memories that will last a lifetime.</p>
+        </section>
+
+        <section id="contact-section" class="highlight">
+            <h2>Contact Us</h2>
+            <form action="contact_form_handler.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Your Wedding Planner. All rights reserved.
+    </footer>
+</body>
+
+</html>
